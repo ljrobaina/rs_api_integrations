@@ -1,1 +1,1 @@
-# rs_api_integrations
+# rs_api_integrations: Real Estate app API integrations.
