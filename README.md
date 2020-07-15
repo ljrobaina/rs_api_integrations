@@ -6,17 +6,14 @@
 ### Mysql
 ###### macOS
   * Use Homebrew to install MySQL version 5.6 `brew install mysql@5.6`
-  * Add the path to your `~/.bash_profile` for easier mysql starting/stopping
-  ```
-  'export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"'
-  ```
+  * Add the path to your `~/.bash_profile` for easier mysql starting/stopping `'export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"'`
 ###### Linux (Ubuntu)
  * Install using `sudo apt install mysql-server-5.6`
  * Check the status `sudo service mysql status`
 ### RVM (Ruby Version Manager)
 * Install RVM from https://rvm.io/ 
 * Install *Ruby 2.4.1* with RVM `rvm install ruby 2.4.1`
-Optional
+- Optional
 * Create a gemset `rvm gemset create redspot`
 * Set gemset as default `rvm use ruby-2.4.1@redspot --default`
 ###### Linux (Ubuntu)
