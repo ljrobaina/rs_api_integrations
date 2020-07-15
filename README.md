@@ -59,7 +59,7 @@
     - Create DB by enviroment with UTF8 enconde direcly in the DB server.
     - Comment lines in `schema.rb` file that start with *add_foreign_key* at the end of the file.
     - Comment line 486 in `seeds.rb` which return an error.
-###### Linux (Ubuntu)
+  ###### Linux (Ubuntu)
     - Install the English dictionary `sudo apt-get install wamerican`
 
 
