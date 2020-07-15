@@ -19,10 +19,9 @@
 ###### Linux (Ubuntu)
   * Install gnupg2 `sudo apt install gnupg2` if not available
 ## GIT
- ###### macOS
+ ###### macOS 
  May already be installed from Xcode tools, if not `brew install git`
- ###### Linux (Ubuntu)
- `sudo apt install git`
+ ###### Linux (Ubuntu) `sudo apt install git`
 ## NVM (Node Version Manager)
 * Install from [https://github.com/nvm-sh/nvm#install--update-script](https://github.com/nvm-sh/nvm#install--update-script)
 * Install node using NVM `nvm install --lts`
@@ -41,10 +40,8 @@
 * Install bundle gem `gem install bundle`
 * Navigate to the app directory and do `bundle instal`
 - If you get an error installing *mysql2* gem check the messages probably is missing a library
-   ###### macOS
-   `brew install libmysqlclient-dev`
-   ###### Linux (Ubuntu)
-   `sudo apt-get install libmysqlclient-dev`
+   ###### macOS `brew install libmysqlclient-dev`
+   ###### Linux (Ubuntu) `sudo apt-get install libmysqlclient-dev`
 - If you get an error installing *rmagick* gem check if **ImageMagick version (<= 6.4.9)** is already install, if not install it using  
    ###### Linux (Ubuntu)
    ```
@@ -57,13 +54,13 @@
    Use home brew to install packages
 
 * Before run the migration:
-- Create `database.yml` file from example file
-- Create `integrations/arthrex.yml` from example file
-- Create DB by enviroment with UTF8 enconde direcly in the DB server.
-- Comment lines in `schema.rb` file that start with *add_foreign_key* at the end of the file.
-- Comment line 486 in `seeds.rb` which return an error.
+    - Create `database.yml` file from example file
+    - Create `integrations/arthrex.yml` from example file
+    - Create DB by enviroment with UTF8 enconde direcly in the DB server.
+    - Comment lines in `schema.rb` file that start with *add_foreign_key* at the end of the file.
+    - Comment line 486 in `seeds.rb` which return an error.
 ###### Linux (Ubuntu)
-- Install the English dictionary `sudo apt-get install wamerican`
+    - Install the English dictionary `sudo apt-get install wamerican`
 
 
 
