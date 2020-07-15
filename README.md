@@ -41,20 +41,21 @@
 * Install bundle gem `gem install bundle`
 * Navigate to the app directory and do `bundle instal`
 - If you get an error installing *mysql2* gem check the messages probably is missing a library
-###### macOS
-`brew install libmysqlclient-dev`
-###### Linux (Ubuntu)
-`sudo apt-get install libmysqlclient-dev`
-- If you get an error installing *rmagick* gem check if *ImageMagick version (<= 6.4.9)* is already install, if not install it using  
-###### Linux (Ubuntu)
-```
-sudo apt-get install graphicsmagick-libmagick-dev-compat
-sudo apt-get install imagemagick`
-sudo apt-get install libmagickcore-dev
-sudo apt-get install libmagickwand-dev
-```
-###### macOS
-Use home brew to install packages
+   ###### macOS
+   `brew install libmysqlclient-dev`
+   ###### Linux (Ubuntu)
+   `sudo apt-get install libmysqlclient-dev`
+- If you get an error installing *rmagick* gem check if **ImageMagick version (<= 6.4.9)** is already install, if not install it using  
+   ###### Linux (Ubuntu)
+   ```
+   sudo apt-get install graphicsmagick-libmagick-dev-compat
+   sudo apt-get install imagemagick`
+   sudo apt-get install libmagickcore-dev
+   sudo apt-get install libmagickwand-dev
+   ```
+   ###### macOS
+   Use home brew to install packages
+
 * Before run the migration:
 - Create `database.yml` file from example file
 - Create `integrations/arthrex.yml` from example file
