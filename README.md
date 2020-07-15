@@ -1,9 +1,9 @@
-## Install Redspot
-### Xcode
+# Install Redspot
+## Xcode
   * Is a suite of software development tools developed by Apple for developing software.
-### Homebrew
+## Homebrew
   * Is a software package management system that simplifies the installation of software on Apple's macOS
-### Mysql
+## Mysql
 ###### macOS
   * Use Homebrew to install MySQL version 5.6 `brew install mysql@5.6`
   * Add the path to your `~/.bash_profile` for easier mysql starting/stopping `'export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"'`
