@@ -10,7 +10,7 @@
 ###### Linux (Ubuntu)
  * Install using `sudo apt install mysql-server-5.6`
  * Check the status `sudo service mysql status`
-### RVM (Ruby Version Manager)
+## RVM (Ruby Version Manager)
  * Install RVM from https://rvm.io/ 
  * Install **Ruby 2.4.1** with RVM `rvm install ruby 2.4.1`
  - Optional
@@ -18,7 +18,7 @@
     - Set gemset as default `rvm use ruby-2.4.1@redspot --default`
 ###### Linux (Ubuntu)
   * Install gnupg2 `sudo apt install gnupg2` if not available
-### GIT
+## GIT
  * Install Git
  ###### macOS
  May already be installed from Xcode tools
