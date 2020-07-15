@@ -27,13 +27,11 @@
 * Install from [https://github.com/nvm-sh/nvm#install--update-script](https://github.com/nvm-sh/nvm#install--update-script)
 * Install node using NVM `nvm install --lts`
 * Install NPM (Node Package Manager) 
-   ###### macOS
-   `brew install npm`
-   ###### Linux (Ubuntu)
-   `sudo apt install npm`
-### Redis
+   ###### macOS `brew install npm`
+   ###### Linux (Ubuntu) `sudo apt install npm`
+## Redis
 * Install Redis server from https://redis.io/topics/quickstart
-### Redspot
+## Redspot
 #### Git
 * Generate an SSH key if don't have one [https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent]
 * Add ssh key to your github account [https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account]
