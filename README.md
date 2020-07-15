@@ -19,20 +19,18 @@
 ###### Linux (Ubuntu)
   * Install gnupg2 `sudo apt install gnupg2` if not available
 ## GIT
- * Install Git
  ###### macOS
- May already be installed from Xcode tools
- `brew install git`
+ May already be installed from Xcode tools, if not `brew install git`
  ###### Linux (Ubuntu)
  `sudo apt install git`
-### NVM (Node Version Manager)
+## NVM (Node Version Manager)
 * Install from [https://github.com/nvm-sh/nvm#install--update-script](https://github.com/nvm-sh/nvm#install--update-script)
 * Install node using NVM `nvm install --lts`
 * Install NPM (Node Package Manager) 
-###### macOS
-`brew install npm`
-###### Linux (Ubuntu)
-`sudo apt install npm`
+   ###### macOS
+   `brew install npm`
+   ###### Linux (Ubuntu)
+   `sudo apt install npm`
 ### Redis
 * Install Redis server from https://redis.io/topics/quickstart
 ### Redspot
