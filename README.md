@@ -62,18 +62,18 @@
   ###### Linux (Ubuntu)
     - Install the English dictionary `sudo apt-get install wamerican`
 
+* Migrate DB using `rake db:schema:load` and `rake db:migrate` and `rake db:seed`
+* Run the Rails Server `rails s`
+  - If using a VM  use `rails s -b 0.0.0.0`
+* Open the app in the browser
+  - If using a VM use the ip `http://192.168.57.131:3000/login` if not use `localhost:3000`
+* Log in the app with default credentials 
+  *User:*  redspot@jupiterapp.com
+  *Password:* passw0rd
+	 - If get a message about "You currently are not tied to any active Account." you need to update the user to activate it.
+		`UPDATE `User` SET `User`.`active_accounts_count` = 1 WHERE `User`.`email_address` = 'redspot@jupiterapp.com'`
 
-
-* Redspot
-  - use git to clone this repo
-  - install bundler
-  - use bundler to install gems
-  - use npm to install packages
-* Redis
-  - use homebrew to install redis
-
-
-# Background Processes
+## Background Processes
 * Sidekiq
   - can be started by running; bundle exec sidekiq
 * Delayed Jobs
@@ -81,7 +81,7 @@
 * Redis
   - can be started by running; redis-server /usr/local/etc/redis.conf
 
-# Github Hooks 
+## Github Hooks 
 * post-commit hook
   - run command `npm run add-pc-hook` to create post-commit hook
   - when committing add tag `affects_mobile`, if it affects mobile
