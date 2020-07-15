@@ -70,8 +70,10 @@
 * Log in the app with default credentials 
   *User:*  redspot@jupiterapp.com
   *Password:* passw0rd
-	 - If get a message about "You currently are not tied to any active Account." you need to update the user to activate it.
-		`UPDATE `User` SET `User`.`active_accounts_count` = 1 WHERE `User`.`email_address` = 'redspot@jupiterapp.com'`
+	- If get a message about "You currently are not tied to any active Account." you need to update the user to activate it.
+	```
+	UPDATE `User` SET `User`.`active_accounts_count` = 1 WHERE `User`.`email_address` = 'redspot@jupiterapp.com'
+	```
 
 ## Background Processes
 * Sidekiq
